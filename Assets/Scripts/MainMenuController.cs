@@ -23,7 +23,7 @@ public class MainMenuController : MonoBehaviour
     private void OnPlayClicked()
     {
         // Load your game scene here
-        SceneManager.LoadScene("game"); // Replace "GameScene" with your actual scene name
+        SceneManager.LoadScene("Level"); // Replace "GameScene" with your actual scene name
     }
 
     private void OnExitClicked()
